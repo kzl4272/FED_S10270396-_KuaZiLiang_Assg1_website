@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindful Brushstrokes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Mindful Brushstrokes</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Intro Section -->
+        <section id="intro">
+            <h2>About Us</h2>
+            <p>Mindful Brushstrokes is where art meets mindfulness, offering hand-crafted artwork that resonates with the soul.</p>
+            <a href="about.html"><button class="btn">Learn More</button></a>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service-card">
+                <h3>Custom Artwork</h3>
+                <p>We create bespoke art tailored to your preferences and space, bringing your vision to life.</p>
+                <a href="service1.html"><button class="btn">Read More</button></a>
+            </div>
+            <div class="service-card">
+                <h3>Art Therapy Workshops</h3>
+                <p>Join our mindful art workshops to explore creativity and relaxation through guided painting sessions.</p>
+                <a href="service2.html"><button class="btn">Read More</button></a>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Our Other Art Works</h2>
+            <div class="gallery">
+                <img src="images/sea.jpg" alt="Artwork 1">
+                <img src="Images/pandaEat.jpg" alt="Artwork 2">
+                <img src="Images/sceneryriver.jpg" alt="Artwork 3">
+                <img src="Images/PandaTree.jpg" alt="Artwork 4">
+            </div>
+        </section>
+
+        
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="thankyou.html" method="GET">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="promo-code">Promo Code:</label>
+                <input type="text" id="promo-code" name="promo-code">
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mindful Brushstrokes. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
